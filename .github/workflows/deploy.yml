@@ -29,8 +29,8 @@ jobs:
 
     - name: Build
       run: | 
-      npm install -g @angular/cli
-      ng build
+          npm install -g @angular/cli
+          ng build
 
     - name: Deploy
       if: success()
